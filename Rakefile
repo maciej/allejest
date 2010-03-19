@@ -6,11 +6,12 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "allejest"
     gem.summary = %Q{Powiadamia e-mailem o dostępności przedmiotów na allegro}
-    gem.description = %Q{Powiadamia e-mailem o dostępności przedmiotów na allegro}
+    gem.description = %Q{Powiadamia e-mailem o dostępności przedmiotów na allegro.}
     gem.email = "maciej@inszy.org"
     gem.homepage = "http://github.com/maciej/allejest"
     gem.authors = ["Maciej Bilas"]
     gem.add_development_dependency "rspec"
+	gem.rubyforge_project = %q{allejest}
 
     gem.add_dependency 'activesupport', '>=2.3.0'
     gem.add_dependency 'feed_me', '>=0.6.0'
