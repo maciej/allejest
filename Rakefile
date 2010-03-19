@@ -5,12 +5,16 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "allejest"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Powiadamia e-mailem o dostępności przedmiotów na allegro}
+    gem.description = %Q{Powiadamia e-mailem o dostępności przedmiotów na allegro}
     gem.email = "maciej@inszy.org"
     gem.homepage = "http://github.com/maciej/allejest"
     gem.authors = ["Maciej Bilas"]
-    gem.add_development_dependency "thoughtbot-shoulda"
+    gem.add_development_dependency "rspec"
+
+    gem.add_dependency 'active_support', '>=2.3.0'
+    gem.add_dependency 'feed_me', '>=0.6.0'
+
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
