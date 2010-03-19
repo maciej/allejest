@@ -17,6 +17,8 @@ begin
     gem.add_dependency 'feed_me', '>=0.6.0'
     gem.add_dependency 'simply_useful', '>=0.1.6'
     gem.add_dependency 'pony', '>=0.9'
+    # See http://github.com/jnicklas/feed_me/issues#issue/1 feed_me depends on nokogiri, but does not specify it
+    gem.add_dependency 'nokogiri'
 
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
