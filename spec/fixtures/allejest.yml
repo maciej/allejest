@@ -1,0 +1,9 @@
+# Example configuration
+queries:
+  - id: canon_10_22
+    text: Canon 10 22
+  - id: samsung_i7500
+    category: 70563
+  - id: garfield
+    text: garfield
+    category: 106

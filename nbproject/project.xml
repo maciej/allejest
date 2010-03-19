@@ -7,6 +7,7 @@
             <source-roots>
                 <root id="src.bin.dir" name="Bin Directory"/>
                 <root id="src.dir"/>
+                <root id="src.config.dir" name="Config Files"/>
             </source-roots>
             <test-roots>
                 <root id="test.spec.dir" name="Spec Files"/>

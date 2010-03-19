@@ -1,0 +1,12 @@
+Dear <%= firstname %>,
+
+Your report has arrived:
+
+<% results.each do |result| %>
+New entries are available for: <%= result.title %> (id: <%= result.query[:id] %>)
+  <% result.items.each do |item| %>
+    <%= item.feed_entry.title %> at <%= item.feed_entry.url %>
+  <% end %>
+<% end %>
+
+AlleJest!

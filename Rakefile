@@ -12,8 +12,10 @@ begin
     gem.authors = ["Maciej Bilas"]
     gem.add_development_dependency "rspec"
 
-    gem.add_dependency 'active_support', '>=2.3.0'
+    gem.add_dependency 'activesupport', '>=2.3.0'
     gem.add_dependency 'feed_me', '>=0.6.0'
+    gem.add_dependency 'simply_useful', '>=0.1.6'
+    gem.add_dependency 'pony', '>=0.9'
 
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

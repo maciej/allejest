@@ -2,4 +2,4 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
 require 'allejest'
 
-AlleJest.run
+AlleJest::Runner.main
