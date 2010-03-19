@@ -8,7 +8,6 @@ require 'yaml'
 require 'simply_useful'
 require 'erb'
 require 'pathname'
-require 'net/smtp'
 require 'time'
 require 'pony'
 
